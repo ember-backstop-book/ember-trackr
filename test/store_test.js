@@ -11,4 +11,3 @@ test('store uses DS.FixtureAdapter', function() {
 
   equal(name, 'DS.FixtureAdapter');
 });
-
