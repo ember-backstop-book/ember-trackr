@@ -126,6 +126,10 @@ var TicketsNewRoute = Ember.Route.extend({
       var promise = ticket.save();
 
       this.transitionTo('ticket', promise);
+    },
+
+    cancel: function() {
+      this.transitionTo('tickets');
     }
   }
 });
